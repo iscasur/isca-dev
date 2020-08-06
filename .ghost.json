@@ -1,0 +1,12 @@
+{
+  "development": {
+    "apiUrl": "https://iscasur.herokuapp.com",
+    "contentApiKey": "f1671a0eab30023eaa6b5b8eaa",
+    "version": "v3"
+  },
+  "production": {
+    "apiUrl": "https://iscasur.herokuapp.com",
+    "contentApiKey": "f1671a0eab30023eaa6b5b8eaa",
+    "version": "v3"
+  }
+}
