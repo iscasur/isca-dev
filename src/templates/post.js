@@ -28,12 +28,13 @@ const Post = ({ data, location }) => {
             <Layout>
                 <div className="container">
                     <article className="content">
-                        { post.feature_image ?
-                            <figure className="post-feature-image">
-                                <img src={ post.feature_image } alt={ post.title } />
-                            </figure> : null }
                         <section className="post-full-content">
                             <h1 className="content-title">{post.title}</h1>
+                            <p>{post.created_at_pretty}</p>
+                            { post.feature_image ?
+                                <figure className="post-feature-image">
+                                    <img src={ post.feature_image } alt={ post.title } />
+                                </figure> : null }
 
                             {/* The main post content */ }
                             <section
