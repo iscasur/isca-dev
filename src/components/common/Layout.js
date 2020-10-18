@@ -43,10 +43,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     <Link to="/">
                                         <div className="site-title">
 											<div>
-												{site.logo ?
-													<img className="site-logo" src={site.logo} alt={site.title} />
-													: <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-												}
+												<img className="site-logo" src="https://s3-us-west-1.amazonaws.com/iscadev/2020/10/logo_isca.png" alt={site.title} />
 											</div>
 											<div>
 												<h1 className="site-banner-title">{site.title}</h1>
@@ -86,7 +83,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                <Link to="/">{site.title}</Link> © 2019 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a>
+                                <Link to="/">{site.title}</Link> © 2020 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a>
                             </div>
                             <div className="site-foot-nav-right">
                                 <Navigation data={site.navigation} navClass="site-foot-nav-item" />
