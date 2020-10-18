@@ -38,6 +38,20 @@ module.exports = {
         siteUrl: config.siteUrl,
     },
     plugins: [
+        {
+            resolve: `gatsby-transformer-rehype`,
+            options: {
+                // 2. - Ensure these only apply to type
+                filter: node => node.internal.type === `GhostPost` ||
+                    node.internal.type === `GhostPage`,
+                plugins: [
+                    {
+                        // 3. - Add syntax highlight for code block.
+                        resolve: `gatsby-rehype-prismjs`,
+                    },
+                ],
+            },
+        },
         /**
          *  Content Plugins
          */
