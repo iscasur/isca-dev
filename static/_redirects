@@ -1,4 +1,6 @@
 # Netlify redirects file, edit with your domain
 # https://www.netlify.com/docs/redirects/
 
-https://isca.dev/platzi                         https://platzi.com/r/iscasur/
+# Afiliados
+/platzi/                                        https://platzi.com/r/iscasur/
+/bitcoin/                                       https://bitso.com/?ref=adxt
