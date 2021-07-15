@@ -934,20 +934,6 @@ a .site-title {
     width: 26px;
 }
 
-/* Referral
-/* ---------------------------------------------------------- */
-.referral {
-    margin: var(--margin) 0;
-    border-radius: var(--radius);
-    padding: 4rem;
-    font-size: 1.6rem;
-    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
-}
-
-.referral p:last-child {
-    margin-bottom: 0;
-}
-
 /* Tag Archives
 /* ---------------------------------------------------------- */
 

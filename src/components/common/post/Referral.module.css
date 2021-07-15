@@ -1,0 +1,27 @@
+.referral {
+    background-color: #e0cdff;
+    margin: var(--margin) 0;
+    border-radius: var(--radius);
+    padding: 8rem 0;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.referral a {
+    font-weight: 600;
+    color: #701bfc;
+}
+
+.button {
+    border: 1px solid var(--color-primary);
+    padding: 1rem;
+    border-radius: var(--radius);
+    background: white;
+}
+
+.referral p:last-child {
+    margin-bottom: 0;
+}
